@@ -143,7 +143,7 @@ def test_game_with_several_correct_and_incorrect_guesses():
     assert game.word.masked == '*y**o*'
 
 
-def test_guess_word_is_case_insensitve():
+def test_guess_word_is_case_insensitive():
     game = HangmanGame(['Python'])
 
     attempt = game.guess('p')
